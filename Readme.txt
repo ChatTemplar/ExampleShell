@@ -8,5 +8,6 @@ To get the shell on a machine (for educational purpose only):
 -Network-based attacks
 
 You can use the ReverseShellAddon.py code to run python trough the reverse shell. Simple copy The line in the code.
+The ReverseShellText.py is to open Text editor on the target machine.
 
 Do not use this code for malicious intent!
